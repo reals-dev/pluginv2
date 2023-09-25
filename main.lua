@@ -1,3 +1,4 @@
+-- credit: reals-dev
 local ChangeHistoryService = game:GetService("ChangeHistoryService")
 local Selection = game:GetService("Selection")
 
