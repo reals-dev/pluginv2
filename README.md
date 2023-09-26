@@ -2,6 +2,19 @@
 
 This is a plugin for multi use, open source, and can easily be modified to your liking
 
+# Contents
+
+[Version History](https://github.com/reals-dev/pluginv2#version-history)
+
+[Attributes](https://github.com/reals-dev/pluginv2#windows)
+[Installation](https://github.com/reals-dev/pluginv2#getting-started)
+[Help](https://github.com/reals-dev/pluginv2#help)
+[Contact](https://github.com/reals-dev/pluginv2#authors)
+
+
+
+
+
 ## What functions does it have?
 - Converting TextLabels - TextButtons or TextButtons - TextLabels
 - Moving any type of part to another parts position X, Y, Z or All.
