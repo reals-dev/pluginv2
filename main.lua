@@ -170,17 +170,17 @@ function onNewScriptButtonClicked()
 	local selectedObjects = Selection:Get()
 	local parent
 	if #selectedObjects > 0 then
-		if selectedObjects[1].ClassName == 'TextLabel' then
+		if selectedObjects[1].ClassName == 'TextLabel' or selectedObjects[1].ClassName == 'TextButton' then
 			print('attempting')
 			parent = selectedObjects[1]
 			getProperties(parent)
 		else
-			warn('please select a textlabel!')
+			warn('please select a textlabel or textbutton!')
 		end
 	else
-		warn('please select a label to convert!')
+		warn('please select a button or label to convert!')
 	end
-	ChangeHistoryService:SetWaypoint("Added new empty script")
+	ChangeHistoryService:SetWaypoint("Started conversion of a label")
 end
 
 function getPosition(typee)
