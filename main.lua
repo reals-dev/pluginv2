@@ -21,6 +21,7 @@ buttontolabel.ClickableWhenViewportHidden = true
 
 Selection.SelectionChanged:Connect(function()
 	if checkselection == true then
+		print('moved part one to the second part')
 		checkselection = false
 		local newpart = Selection:Get()
 		if #newpart > 0 then
@@ -189,6 +190,7 @@ function getPosition(typee)
 			coord = part.Position
 		end
 	end
+	print('select another part')
 	checkselection = true
 end
 
