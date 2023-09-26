@@ -112,6 +112,7 @@ function getProperties(inst : TextLabel?)
 	newbutton.BackgroundColor3 = BackgroundColor3
 	newbutton.BackgroundTransparency = BackgroundTransparency
 	newbutton.BorderColor3 = BorderColor3
+	newbutton.BorderMode = BorderMode
 	newbutton.BorderSizePixel = BorderSizePixel
 	newbutton.LayoutOrder = LayoutOrder
 	newbutton.Parent = inst.Parent
@@ -152,6 +153,15 @@ function getProperties(inst : TextLabel?)
 		newbutton.SelectionBehaviorLeft = SelectionBehaviourLeft
 		newbutton.SelectionBehaviorRight = SelectionBehaviourRight
 		newbutton.SelectionBehaviorUp  = SelectionBehaviourUp
+	end
+
+	getChildren(inst, newbutton)
+end
+
+function getChildren(firstinstance: TextLabel?, secondinstance: TextButton?)
+	for i,v in pairs(firstinstance:GetChildren()) do
+		local child = v:Clone()
+		child.Parent = secondinstance
 	end
 end
 
