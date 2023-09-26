@@ -46,11 +46,8 @@ function getProperties(inst : TextLabel?)
 	local SelectionImageObject = inst.SelectionImageObject
 	-- data
 	local Archivable = inst.Archivable
-	print(Archivable)
 	local Active = inst.Active
-	print(Active)
 	local AnchorPoint = inst.AnchorPoint
-	print(AnchorPoint)
 	local AutomaticSize = inst.AutomaticSize
 	local BackgroundColor3 = inst.BackgroundColor3
 	local BackgroundTransparency = inst.BackgroundTransparency
