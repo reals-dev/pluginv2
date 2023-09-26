@@ -19,7 +19,7 @@ This is a plugin for multi use, open source, and can easily be modified to your 
 
 
 
-> ## What functions does it have?
+## What functions does it have?
 - Converting TextLabels - TextButtons or TextButtons - TextLabels
 - Moving any type of part to another parts position X, Y, Z or All.
 
