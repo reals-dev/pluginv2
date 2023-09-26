@@ -11,8 +11,6 @@ local positiony = changeposition:CreateButton("Copy Position Y", "Copies Positio
 local positionz = changeposition:CreateButton("Copy Position Z", "Copies Position Z", "http://www.roblox.com/asset/?id=6034328955")
 local copyall = changeposition:CreateButton('Copy all positions', 'Copies the whole position', 'http://www.roblox.com/asset/?id=6034328955')
 
-local a
-
 local checkselection = false
 local coord
 local positiontype
